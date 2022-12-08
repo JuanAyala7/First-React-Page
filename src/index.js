@@ -17,11 +17,6 @@ const router = createBrowserRouter([
     },
 ]);
 
-const test = ['sam', 'juan'];
-const test1 = [1, 2];
-const test2 = [[1], [2]];
-const test3 = [{ sam: 'fletcher' }, { juan: 'Ayala' }];
-
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <RouterProvider router={router} />

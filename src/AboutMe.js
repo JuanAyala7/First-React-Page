@@ -1,4 +1,3 @@
-import logo from './J.png';
 import './App.css';
 
 function AboutMe() {
